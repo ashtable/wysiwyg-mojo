@@ -1,0 +1,12 @@
+[project]
+name = "wysiwyg-mojo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "mojo>=0.26.3.0.dev2026041520",
+]
+
+[[tool.uv.index]]
+url = "https://whl.modular.com/nightly/simple/"
